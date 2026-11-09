@@ -29,7 +29,7 @@ CLASS_NAMES = {
 
 # Parameter hasil kalibrasi validation set
 TEMPERATURE = 1.2147856356111453
-TAU = 0.755
+TAU = 0.755 #ambang ketidakyakinan
 
 # Tingkat masking untuk deletion test
 MASK_FRACTIONS = [
@@ -56,20 +56,18 @@ def load_model():
     # Mencari Conv2D terakhir pada CNN
     last_conv = None
 
-    for layer in reversed(model.layers):
-        if isinstance(layer, tf.keras.layers.Conv2D):
-            last_conv = layer
+    # cari Activation (ReLU) setelah Conv2D terakhir, sama seperti notebook
+    target_layer = last_conv
+    start = model.layers.index(last_conv)
+    for layer in model.layers[start:]:
+        if isinstance(layer, tf.keras.layers.Activation):
+            target_layer = layer
             break
-
-    if last_conv is None:
-        raise ValueError(
-            "Layer Conv2D tidak ditemukan."
-        )
 
     grad_model = tf.keras.Model(
         inputs=model.inputs,
         outputs=[
-            last_conv.output,
+            target_layer.output,
             model.output
         ]
     )
