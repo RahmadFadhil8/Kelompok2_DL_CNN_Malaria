@@ -5,7 +5,7 @@ Aplikasi web klasifikasi citra sel darah merah (**Uninfected** vs **Parasitized*
 > ⚠️ Hasil aplikasi ini adalah keluaran model dan **bukan diagnosis medis**.
 
 🔗 **Demo:** https://kelompok2-deep-learning.streamlit.app/ 
-🎥 **Video demo:** 
+🎥 **Video demo:** https://drive.google.com/drive/folders/1c3cWZFiPLCqOOAs1PeJ3IXB9SSjNK9Dd
 
 ## Fitur
 
