@@ -1,0 +1,17 @@
+{
+  "run_id": "G_seed_3",
+  "config": "G",
+  "seed": 3,
+  "accuracy": 0.9650934119960669,
+  "precision_parasitized": 0.9751583049196298,
+  "recall_parasitized": 0.9565217391304348,
+  "f1_parasitized": 0.9657501205981669,
+  "auc_roc": 0.9902979794008963,
+  "test_loss": 0.11126992148857641,
+  "tn": 1924,
+  "fp": 51,
+  "fn": 91,
+  "tp": 2002,
+  "test_images": 4068,
+  "threshold": 0.5
+}

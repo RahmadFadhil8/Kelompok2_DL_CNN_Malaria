@@ -1,0 +1,17 @@
+{
+  "run_id": "H_seed_2",
+  "config": "H",
+  "seed": 2,
+  "accuracy": 0.9623893805309734,
+  "precision_parasitized": 0.9690522243713733,
+  "recall_parasitized": 0.9574773053033923,
+  "f1_parasitized": 0.9632299927901946,
+  "auc_roc": 0.9896215836997344,
+  "test_loss": 0.1162204297174268,
+  "tn": 1911,
+  "fp": 64,
+  "fn": 89,
+  "tp": 2004,
+  "test_images": 4068,
+  "threshold": 0.5
+}

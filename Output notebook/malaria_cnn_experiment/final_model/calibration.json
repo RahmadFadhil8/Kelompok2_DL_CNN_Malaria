@@ -1,0 +1,16 @@
+{
+  "config": "D",
+  "seed": 2,
+  "temperature": 1.2147856356111453,
+  "tau": 0.755,
+  "tau_rule": "tau terkecil di validation dengan akurasi diterima >= 0.98",
+  "target_accuracy": 0.98,
+  "fitted_on": "validation",
+  "test_at_tau": {
+    "coverage": 0.9707472959685349,
+    "accuracy_accepted": 0.9754368194479615,
+    "recall_parasitized_accepted": 0.9627815866797258,
+    "errors_referred": 38.0,
+    "fn_referred": 11.0
+  }
+}

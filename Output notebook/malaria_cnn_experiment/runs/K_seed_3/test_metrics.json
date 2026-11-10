@@ -1,0 +1,17 @@
+{
+  "run_id": "K_seed_3",
+  "config": "K",
+  "seed": 3,
+  "accuracy": 0.9660766961651918,
+  "precision_parasitized": 0.975669099756691,
+  "recall_parasitized": 0.957955088389871,
+  "f1_parasitized": 0.9667309546769528,
+  "auc_roc": 0.9916234343532088,
+  "test_loss": 0.10578763098892183,
+  "tn": 1925,
+  "fp": 50,
+  "fn": 88,
+  "tp": 2005,
+  "test_images": 4068,
+  "threshold": 0.5
+}

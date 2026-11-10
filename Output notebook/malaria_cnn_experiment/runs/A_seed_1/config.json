@@ -1,0 +1,32 @@
+{
+  "run_id": "A_seed_1",
+  "hard_fingerprint": {
+    "batch_size": 64,
+    "dataset_fingerprint": "f9c606cec18732ec77b7503b86205b1c447c406e13f7ab0299ae0dc6c5f74ee9",
+    "dropout_conv": 0.25,
+    "dropout_dense": 0.5,
+    "image_size": 128,
+    "keras_major": "3",
+    "manifest_hash": "d32b7b4fa56ea52d7fb56945ad71f41b61b37a47437efe7a7c1a8b67ee25c4b3",
+    "min_lr": 1e-06,
+    "n_train": 19561,
+    "n_val": 3929,
+    "protocol_version": "v2-12x3-mobilenetv2",
+    "seed": 1,
+    "smoke": false,
+    "spec": {
+      "bn": false,
+      "dropout": false,
+      "epochs": 40,
+      "initial_lr": 0.001,
+      "kind": "cnn",
+      "lr_mode": "constant",
+      "name": "A"
+    }
+  },
+  "parameters": 291905,
+  "optimizer": "Adam(beta_1=0.9, beta_2=0.999)",
+  "loss": "binary_crossentropy",
+  "augmentation": "none",
+  "precision": "float32"
+}

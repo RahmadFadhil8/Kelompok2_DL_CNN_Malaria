@@ -1,0 +1,6 @@
+Aspek,Temuan,Implikasi
+Keseimbangan kelas,"13,779 Parasitized vs 13,779 Uninfected (rasio 1.00 : 1).",Penanganan class imbalance tidak diperlukan; akurasi dan F1 dapat dibaca langsung.
+Variasi dimensi,"Lebar 46-394 px, tinggi 40-385 px; 92.2% citra non-persegi.",Resize bilinear ke 128x128 agar dapat disusun menjadi tensor 4D (Bagian 4).
+Struktur pasien,"27,558 citra dari 200 grup pasien/slide; sel terinfeksi per grup median 33, maksimum 633.",Split acak per citra membocorkan grup (100.0% citra test punya grup di train) sedangkan manifest 0.0%; gunakan StratifiedGroupKFold berbasis group_id (Bagian 2).
+Variasi optik dan pewarnaan,Bukti kuantitatif: rata-rata kanal hijau per slide berkisar 110.6-177.6 (SD 13.5) pada 171 slide sampel.,Normalisasi piksel ke 0-1 (dibagi 255) dan Batch Normalization pada konfigurasi yang memakainya.
+Artefak visual (kualitatif),Tidak diukur secara kuantitatif. Konfirmasi dari galeri sampel (2A-3) sebelum dinyatakan di laporan.,"Motivasi Grad-CAM + deletion test dan kalibrasi keyakinan (Bagian 14-15) bersifat argumentatif, bukan hasil EDA."

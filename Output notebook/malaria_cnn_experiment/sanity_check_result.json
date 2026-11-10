@@ -1,0 +1,10 @@
+{
+  "images": 200,
+  "images_per_class": 100,
+  "epochs": 200,
+  "train_accuracy_last_epoch": 1.0,
+  "threshold": 0.95,
+  "image_size": 128,
+  "dataset_fingerprint": "f9c606cec18732ec77b7503b86205b1c447c406e13f7ab0299ae0dc6c5f74ee9",
+  "passed": true
+}

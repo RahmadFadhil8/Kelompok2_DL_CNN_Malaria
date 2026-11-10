@@ -1,0 +1,17 @@
+| Metrik | A (kustom 5x5, GAP) | V (vanilla 3x3, Flatten) | Selisih V - A | Seed V > A | Keputusan (aturan klaim protokol) |
+|---|---|---|---|---|---|
+| Accuracy (test) | 0.9627 ± 0.0017 | 0.9606 ± 0.0013 | -0.0021 | 1/3 | Tidak dapat dibedakan |
+| Precision parasitized (test) | 0.9708 ± 0.0066 | 0.9793 ± 0.0010 | +0.0085 | 3/3 | V lebih baik |
+| Recall parasitized (test) | 0.9564 ± 0.0035 | 0.9433 ± 0.0015 | -0.0131 | 0/3 | A lebih baik |
+| F1 parasitized (test) [metrik utama] | 0.9635 ± 0.0015 | 0.9610 ± 0.0013 | -0.0025 | 1/3 | Tidak dapat dibedakan |
+| AUC-ROC (test) | 0.9909 ± 0.0006 | 0.9860 ± 0.0005 | -0.0048 | 0/3 | A lebih baik |
+| Test loss (BCE) | 0.1122 ± 0.0035 | 0.1305 ± 0.0034 | +0.0183 | 3/3 | A lebih baik |
+| False positive (jumlah) | 60.3 ± 14.3 | 41.7 ± 2.1 | -18.7 | 0/3 | V lebih baik |
+| False negative (jumlah) | 91.3 ± 7.4 | 118.7 ± 3.1 | +27.3 | 3/3 | A lebih baik |
+| F1 parasitized (validation) | 0.9673 ± 0.0030 | 0.9590 ± 0.0012 | -0.0083 | 0/3 | A lebih baik |
+| Val loss terbaik | 0.1045 ± 0.0024 | 0.1287 ± 0.0038 | +0.0243 | 3/3 | A lebih baik |
+| Jumlah parameter | 291,905 | 3,304,769 | +3,012,864 | 3/3 | (informasi, tidak dinilai) |
+| Detik per epoch | 17.5 ± 0.0 | 12.8 ± 0.2 | -4.7 | 0/3 | (informasi, tidak dinilai) |
+| Epoch terbaik | 11.3 ± 3.1 | 4.3 ± 0.6 | -7.0 | 0/3 | (informasi, tidak dinilai) |
+| Epoch konvergensi (val loss <= 1,05 x minimum) | 7.7 ± 3.5 | 3.7 ± 0.6 | -4.0 | 0/3 | (informasi, tidak dinilai) |
+| Selisih val loss - train loss pada epoch terbaik | 0.0001 ± 0.0099 | -0.0002 ± 0.0040 | -0.0003 | 1/3 | (informasi, tidak dinilai) |

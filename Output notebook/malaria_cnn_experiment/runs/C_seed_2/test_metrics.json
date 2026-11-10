@@ -1,0 +1,17 @@
+{
+  "run_id": "C_seed_2",
+  "config": "C",
+  "seed": 2,
+  "accuracy": 0.966322517207473,
+  "precision_parasitized": 0.9688398849472675,
+  "recall_parasitized": 0.9655996177735309,
+  "f1_parasitized": 0.9672170375687964,
+  "auc_roc": 0.9919993710197342,
+  "test_loss": 0.10919438979045999,
+  "tn": 1910,
+  "fp": 65,
+  "fn": 72,
+  "tp": 2021,
+  "test_images": 4068,
+  "threshold": 0.5
+}

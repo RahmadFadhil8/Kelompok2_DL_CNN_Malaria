@@ -1,0 +1,17 @@
+{
+  "split_random_state": 5,
+  "sklearn_version": "1.6.1",
+  "note": "Seed 5 dipilih pada percobaan sebelumnya dari pencarian seed 0-999 dengan kriteria komposisi data saja (penyimpangan proporsi kelas <= 0,02 dan ukuran split <= 0,01); tidak memakai hasil model.",
+  "reference_from_previous_search": {
+    "seed_5": {
+      "class_dev": 0.0145,
+      "size_dev": 0.0048,
+      "feasible": true
+    },
+    "seed_42": {
+      "class_dev": 0.0793,
+      "size_dev": 0.0294,
+      "feasible": false
+    }
+  }
+}

@@ -1,0 +1,18 @@
+comparison,description,n_paired_seeds,mean_F1_difference_right_minus_left,sd_of_paired_difference,direction_consistent_seeds,required_consistent_seeds,mean_plus_minus_SD_nonoverlap,protocol_rule_met
+B-A,Efek BN pada LR konstan,3,-0.0006521956943394969,0.0021324704980259256,2,3,False,False
+C-A,Efek Dropout pada LR konstan,3,0.002315096266468123,0.0037193428282660305,2,3,False,False
+D-A,Efek gabungan BN+Dropout pada LR konstan,3,0.0010674348879667523,0.00387878992223399,1,3,False,False
+D-B,Nilai tambah Dropout ketika BN aktif (LR konstan),3,0.0017196305823062492,0.00584717562455316,2,3,False,False
+D-C,Nilai tambah BN ketika Dropout aktif (LR konstan),3,-0.0012476613785013708,0.0024684580095310667,1,3,False,False
+G-A,ReduceLROnPlateau pada baseline,3,-0.00041742507153315805,0.0022477356065646647,2,3,False,False
+H-A,Cosine pada baseline,3,0.0013240645792835422,0.0001725679136512031,3,3,False,False
+I-B,ReduceLROnPlateau pada BN saja,3,-0.0003649408386479462,0.004978963639348831,2,3,False,False
+J-B,Cosine pada BN saja,3,-5.1410887967858386e-05,0.006835064128081596,2,3,False,False
+K-C,ReduceLROnPlateau pada Dropout saja,3,-0.00026430133597813804,0.0012049085194696762,2,3,False,False
+L-C,Cosine pada Dropout saja,3,0.00038094539753008583,0.003720461081862486,2,3,False,False
+E-D,ReduceLROnPlateau di atas BN+Dropout,3,-0.0014366562199196187,0.0018291576323049886,2,3,False,False
+F-D,Cosine di atas BN+Dropout,3,0.0004935706897087888,0.0015111300921198207,2,3,False,False
+H-G,ReduceLROnPlateau vs Cosine pada baseline,3,0.0017414896508167004,0.002392236246949787,2,3,False,False
+J-I,ReduceLROnPlateau vs Cosine pada BN saja,3,0.00031352995068008777,0.0020827177947629035,1,3,False,False
+L-K,ReduceLROnPlateau vs Cosine pada Dropout saja,3,0.0006452467335082238,0.002517328370265765,2,3,False,False
+F-E,ReduceLROnPlateau vs Cosine pada BN+Dropout,3,0.0019302269096284075,0.0014415418208583595,3,3,False,False

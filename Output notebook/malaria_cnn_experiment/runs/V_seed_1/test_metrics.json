@@ -1,0 +1,17 @@
+{
+  "run_id": "V_seed_1",
+  "config": "V",
+  "seed": 1,
+  "accuracy": 0.9591937069813176,
+  "precision_parasitized": 0.9781637717121588,
+  "recall_parasitized": 0.9417104634495939,
+  "f1_parasitized": 0.9595910418695229,
+  "auc_roc": 0.9854616049882974,
+  "test_loss": 0.13050709355533197,
+  "tn": 1931,
+  "fp": 44,
+  "fn": 122,
+  "tp": 1971,
+  "test_images": 4068,
+  "threshold": 0.5
+}

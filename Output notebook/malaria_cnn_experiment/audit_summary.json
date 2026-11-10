@@ -1,0 +1,16 @@
+{
+  "total_images": 27558,
+  "parasitized": 13779,
+  "uninfected": 13779,
+  "unique_md5": 27558,
+  "duplicate_exact_extra_files": 0,
+  "md5_label_conflict_groups": 0,
+  "unique_slides": 201,
+  "unique_groups": 200,
+  "ignored_non_images": {
+    "Parasitized": 1,
+    "Uninfected": 1
+  },
+  "dataset_fingerprint": "f9c606cec18732ec77b7503b86205b1c447c406e13f7ab0299ae0dc6c5f74ee9",
+  "created_at": "2026-11-09T22:30:52"
+}

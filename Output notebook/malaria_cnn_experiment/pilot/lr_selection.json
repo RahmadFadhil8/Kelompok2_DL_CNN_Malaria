@@ -1,0 +1,30 @@
+{
+  "selected_learning_rate": 0.001,
+  "image_size": 128,
+  "dataset_fingerprint": "f9c606cec18732ec77b7503b86205b1c447c406e13f7ab0299ae0dc6c5f74ee9",
+  "manifest_hash": "d32b7b4fa56ea52d7fb56945ad71f41b61b37a47437efe7a7c1a8b67ee25c4b3",
+  "selection_rule": "minimum validation loss terendah pada pilot baseline A",
+  "pilot_epochs": 15,
+  "seed": 1,
+  "candidates": [
+    {
+      "learning_rate": 0.001,
+      "image_size": 128,
+      "best_val_loss": 0.10235822945833206,
+      "best_epoch": 11,
+      "train_loss_at_best_epoch": 0.10757911205291748,
+      "epochs_completed": 15,
+      "duration_seconds": 265.7420168790002
+    },
+    {
+      "learning_rate": 0.0003,
+      "image_size": 128,
+      "best_val_loss": 0.10748058557510376,
+      "best_epoch": 15,
+      "train_loss_at_best_epoch": 0.11323771625757217,
+      "epochs_completed": 15,
+      "duration_seconds": 272.8253138660002
+    }
+  ],
+  "selected_at": "2026-11-04T15:20:26"
+}

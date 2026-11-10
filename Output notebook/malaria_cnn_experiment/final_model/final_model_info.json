@@ -1,0 +1,26 @@
+{
+  "config": "D",
+  "seed": 2,
+  "selection_rule": "mean F1 validation tertinggi (seri: val loss terendah)",
+  "image_size": 128,
+  "preprocessing": "resize bilinear ke IMAGE_SIZE x IMAGE_SIZE RGB, bagi 255 (tanpa augmentasi)",
+  "label": "1 = parasitized (kelas positif), 0 = uninfected",
+  "threshold": 0.5,
+  "parameters": 292801,
+  "cnn_spec": {
+    "name": "D",
+    "kind": "cnn",
+    "bn": true,
+    "dropout": true,
+    "lr_mode": "constant",
+    "initial_lr": 0.001,
+    "epochs": 40
+  },
+  "test_metrics_this_seed": {
+    "accuracy": 0.9668141592920354,
+    "precision_parasitized": 0.9766309639727361,
+    "recall_parasitized": 0.9584328714763497,
+    "f1_parasitized": 0.9674463467566916,
+    "auc_roc": 0.9911722619702807
+  }
+}

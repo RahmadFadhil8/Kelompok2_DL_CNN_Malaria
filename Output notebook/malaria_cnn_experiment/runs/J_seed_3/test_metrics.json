@@ -1,0 +1,17 @@
+{
+  "run_id": "J_seed_3",
+  "config": "J",
+  "seed": 3,
+  "accuracy": 0.9584562438544739,
+  "precision_parasitized": 0.9638379942140791,
+  "recall_parasitized": 0.9550883898709985,
+  "f1_parasitized": 0.9594432445404367,
+  "auc_roc": 0.9914618348080098,
+  "test_loss": 0.1107905457407374,
+  "tn": 1900,
+  "fp": 75,
+  "fn": 94,
+  "tp": 1999,
+  "test_images": 4068,
+  "threshold": 0.5
+}

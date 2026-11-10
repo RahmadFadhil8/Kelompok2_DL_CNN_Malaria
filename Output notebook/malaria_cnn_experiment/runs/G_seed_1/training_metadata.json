@@ -1,0 +1,67 @@
+{
+  "status": "completed",
+  "run_id": "G_seed_1",
+  "config": "G",
+  "seed": 1,
+  "kind": "cnn",
+  "lr_mode": "plateau",
+  "initial_learning_rate": 0.001,
+  "epochs": 40,
+  "image_size": 128,
+  "batch_size": 64,
+  "parameters": 291905,
+  "epochs_completed": 40,
+  "best_epoch": 14,
+  "best_val_loss": 0.10104195773601532,
+  "train_loss_at_best_epoch": 0.08039674907922745,
+  "val_minus_train_loss_at_best": 0.020645208656787872,
+  "convergence_epoch": 9,
+  "training_duration_seconds": 701.491071600005,
+  "seconds_per_epoch": 17.537276790000124,
+  "resumed": false,
+  "resume_log": [],
+  "platforms_used": [
+    "kaggle"
+  ],
+  "environment_last_session": {
+    "platform": "kaggle",
+    "os": "Linux-6.18.55+-x86_64-with-glibc2.39",
+    "python": "3.13.15",
+    "tensorflow": "2.20.0",
+    "keras": "3.13.2",
+    "numpy": "2.1.3",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.6.1",
+    "gpu": [
+      "Tesla T4",
+      "Tesla T4"
+    ],
+    "deterministic_ops": false,
+    "recorded_at": "2026-11-04T19:47:13"
+  },
+  "hard_fingerprint": {
+    "batch_size": 64,
+    "dataset_fingerprint": "f9c606cec18732ec77b7503b86205b1c447c406e13f7ab0299ae0dc6c5f74ee9",
+    "dropout_conv": 0.25,
+    "dropout_dense": 0.5,
+    "image_size": 128,
+    "keras_major": "3",
+    "manifest_hash": "d32b7b4fa56ea52d7fb56945ad71f41b61b37a47437efe7a7c1a8b67ee25c4b3",
+    "min_lr": 1e-06,
+    "n_train": 19561,
+    "n_val": 3929,
+    "protocol_version": "v2-12x3-mobilenetv2",
+    "seed": 1,
+    "smoke": false,
+    "spec": {
+      "bn": false,
+      "dropout": false,
+      "epochs": 40,
+      "initial_lr": 0.001,
+      "kind": "cnn",
+      "lr_mode": "plateau",
+      "name": "G"
+    }
+  },
+  "completed_at": "2026-11-04T19:47:13"
+}
